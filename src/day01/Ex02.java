@@ -10,8 +10,8 @@ public class Ex02 {
 
         // 다음 코드를 6번 반복
         //     0부터 9까지 숫자 중 랜덤한 숫자를 하나 생성해서 저장
-        for(Integer i = 1; i < 6; i = i+1 ){
-            Integer num = (int)(Math.random()*9);
+        for(Integer i = 0; i <= 5; i = i+1 ){
+            Integer num = (int)(Math.random()*10);
             System.out.println(num);
         }
         //     저장한 숫자를 출력
